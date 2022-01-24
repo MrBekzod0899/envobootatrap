@@ -1,0 +1,170 @@
+body {
+    background: #eeeeee;
+}
+
+body hr {
+    height: 1px !important;
+    background-color: #9c9c9e;
+    width: 100%;
+}
+
+body .clear {
+    clear: both;
+}
+
+body header {
+    margin: 0 !important;
+    background-color: #eee2ed;
+}
+
+body header .alert {
+    margin: 0;
+}
+
+body header .alert button:last-child {
+    background: #863291;
+}
+
+body nav img {
+    width: 50px !important;
+}
+
+body .container .col-md-4,
+body .container .col-md-3,
+body .container .col-md-6 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+body .container .col-md-4 .name h6,
+body .container .col-md-3 .name h6,
+body .container .col-md-6 .name h6 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+body .container .col-md-4 .description p,
+body .container .col-md-3 .description p,
+body .container .col-md-6 .description p {
+    float: left;
+    font-size: 14px;
+}
+
+body .container .col-md-4 .description button,
+body .container .col-md-3 .description button,
+body .container .col-md-6 .description button {
+    float: right;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+body .container .col-md-4 img,
+body .container .col-md-3 img,
+body .container .col-md-6 img {
+    border-radius: 5px;
+}
+
+body .container .col-md-4 img:hover,
+body .container .col-md-3 img:hover,
+body .container .col-md-6 img:hover {
+    top: -15px;
+    position: relative;
+    left: 0;
+    box-shadow: 0px 10px 1px #8d8b8b;
+}
+
+body .container .row:nth-child(2) .col-md-3 div,
+body .container .row:nth-child(2) .col-md-4 div,
+body .container .row:nth-child(3) .col-md-3 div,
+body .container .row:nth-child(3) .col-md-4 div {
+    border-radius: 5px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+body .container .row:nth-child(2) .col-md-3 div:hover,
+body .container .row:nth-child(2) .col-md-4 div:hover,
+body .container .row:nth-child(3) .col-md-3 div:hover,
+body .container .row:nth-child(3) .col-md-4 div:hover {
+    top: -10px;
+    left: 0;
+    position: relative;
+    box-shadow: 0px 6px 3px #a5a0a0;
+}
+
+body .container .row:nth-child(2) .col-md-3 h4,
+body .container .row:nth-child(2) .col-md-4 h4,
+body .container .row:nth-child(3) .col-md-3 h4,
+body .container .row:nth-child(3) .col-md-4 h4 {
+    text-align: right;
+}
+
+body .container .row:nth-child(2) .col-md-3 p,
+body .container .row:nth-child(2) .col-md-4 p,
+body .container .row:nth-child(3) .col-md-3 p,
+body .container .row:nth-child(3) .col-md-4 p {
+    text-align: right;
+}
+
+body #test {
+    background-color: #f03030;
+}
+
+body #test .col-md-6 p {
+    text-align: center;
+    color: white;
+}
+
+body #test .col-md-6 h3 {
+    text-align: center;
+}
+
+body #test2 {
+    text-align: center;
+    margin-left: 190px;
+}
+
+body #need .row:last-child p {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    color: #747070 !important;
+}
+
+body #need .row:last-child p b {
+    color: #c8c4c4;
+    font-weight: 300;
+}
+
+body .aylana .circle {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50% !important;
+    display: inline-block;
+}
+
+body .aylana .circle:hover {
+    box-shadow: 0px 0px 3px rgba(14, 12, 12, 0.9);
+}
+
+body .aylana .circle:nth-child(1) {
+    background-color: #444141 !important;
+}
+
+body .aylana .circle:nth-child(2) {
+    background-color: #1475b6;
+}
+
+body .aylana .circle:nth-child(3) {
+    background-color: #2452b6;
+}
+
+
+/*# sourceMappingURL=main.css.map */

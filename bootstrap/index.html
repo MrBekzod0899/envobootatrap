@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript5</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+<!--    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">-->
+
+    <style>
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center text-success">Draw rectangle</h3>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="width">Width</label>
+                        <input type="text" placeholder="enter rectangle width ..." class="form-control" id="width">
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Height</label>
+                        <input type="text" placeholder="enter rectangle height ..." class="form-control" id="height">
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Background Color</label>
+                        <input type="text" placeholder="enter rectangle background color ..." class="form-control" id="color">
+                    </div>
+                    <button onclick="rectangleDraw()" class="btn btn-success">Draw rectangle</button>
+                </div>
+                <div class="card-footer">
+                    <div id="rectangle">
+                      <p id="surface"></p>
+                      <p id="peremetr"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+<!---->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 offset-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-success text-center">get prime numbers</h3>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <tbody>
+                          <tr>
+                              <td>7</td>
+                              <td>32</td>
+                              <td>329</td>
+                              <td>325</td>
+                              <td>3251</td>
+                              <td>3258</td>
+                          </tr>
+                          <tr>
+                              <td>3794</td>
+                              <td>3792</td>
+                              <td>37929</td>
+                              <td>37925</td>
+                              <td>379251</td>
+                              <td>379258</td>
+                          </tr>
+                          <tr>
+                              <td>3904</td>
+                              <td>3902</td>
+                              <td>39029</td>
+                              <td>39025</td>
+                              <td>390251</td>
+                              <td>390258</td>
+                          </tr>
+                          <tr>
+                              <td>124</td>
+                              <td>122</td>
+                              <td>1229</td>
+                              <td>1225</td>
+                              <td>12251</td>
+                              <td>12258</td>
+                          </tr>
+                          <tr>
+                              <td>24</td>
+                              <td>22</td>
+                              <td>229</td>
+                              <td>225</td>
+                              <td>2251</td>
+                              <td>2258</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <button id="btn" class="btn btn-success">find prime numbers</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

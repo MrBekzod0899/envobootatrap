@@ -1,0 +1,48 @@
+    @media screen and (min-width:275px) and (max-width:575px) {
+        #test .col-md-6 {
+            margin: 0;
+            text-align: center!important;
+        }
+        #test .col-md-6 button {
+            margin: 0;
+            text-align: center;
+        }
+        #need .row:nth-child(2) .col-md-4 {
+            margin: 0;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width:576px) and (max-width:768px) {
+        #test .col-md-6 {
+            text-align: center !important;
+            margin-left: 0;
+        }
+        #test .col-md-6 button {
+            margin: 0;
+            text-align: center;
+            padding: 0;
+        }
+        #need .row:nth-child(2) .col-md-4 {
+            margin: 0;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width:769px) and (max-width:992px) {
+        #test .col-md-6 {
+            text-align: center;
+        }
+        #test .col-md-6 button {
+            margin: 0;
+            padding: 0;
+        }
+        #need .row:nth-child(2) .col-md-4 {
+            text-align: center !important;
+            margin: 0;
+        }
+        #need .row:nth-child(2) .col-md-4.aylana .circle {
+            display: inline-block;
+            text-align: center;
+        }
+    }
